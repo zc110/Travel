@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent_background">#10000000</color>
+    <color name="baolan">#00ced1</color>
+    <color name="huise">#eaeaea</color>
+    <color name="baise">#ffffff</color>
+    <color name="heise">#000000</color>
+
+</resources>

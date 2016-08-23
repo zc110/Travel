@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.travel.MainActivity" >
+	
+    <item android:title="添加驴友"
+        android:id="@+id/item1"/>
+    <item android:title="扫一扫"
+        android:id="@+id/item2"/>
+	<item android:title="通讯录好友"
+	    android:id="@+id/item3"/>
+</menu>
