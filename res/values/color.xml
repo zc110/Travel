@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="transparent_background">#10000000</color>
+    <color name="baolan">#00ced1</color>
+    <color name="huise">#eaeaea</color>
     <color name="baise">#ffffff</color>
-     <color name="lvse">#01B6BD</color>
-     <color name="heise">#000000</color>
-     <color name="huise">#eeeeee</color>
-     <color name="shenhui">#4A4A4A</color>
-     <color name="shenhei">#333333</color>
+    <color name="heise">#000000</color>
+    <color name="bai_se">#ffffff</color>
+    <color name="hui_se">#A1A1A1</color>
+    <color name="lv_you_guan_li">#ffffff</color>
+    <color name="lv_you_guan_li_bei_jing">#01b6bd</color>
+    <color name="lv_you_guan_li_activity_bei_jing">#EAEAEA</color>
+  <color name="ju_se">#ff4500</color>
+    <color name="lv_you_text">#70000000</color>
+    <color name="geng_duo_zi_liao">#ffffff</color>
+    <color name="lv_you_tet">#01b6bd</color>
+    <color name="xiang_qing_shcool">#838383</color>
+    <color name="xiang_qing_si_liao">#01b6bd</color>
+      <color name="xin_de_lv_you">#838383</color>
+      <color name="ge_ren_zi_liao">#838383</color>
+
 </resources>
