@@ -2,7 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:background="@color/transparent_background"
+     >
     
 <LinearLayout
         android:layout_width="match_parent"
@@ -23,16 +25,11 @@
             android:layout_marginTop="15dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="@string/ge_ren_zi_liao"
+            android:text="@string/ping_jia"
             android:textColor="@color/lv_you_guan_li"
             android:textSize="22sp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="12dp"
-            android:text="@string/ge_ren_zi_liao_geng_duo"
-            android:textColor="@color/bai_se" />
+        
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -90,6 +87,19 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:background="@drawable/shuxian" />
+              <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="right"
+                android:text="@string/ping_jia_fen_si"
+                android:textColor="@color/bai_se" />
+                <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shuxian" />
+            
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -107,4 +117,158 @@
                 android:textColor="@color/bai_se" />
         </LinearLayout>
     </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/bai_se"
+        android:layout_margin="10dp"
+        
+        
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ping_jia_zhun_shi"
+            android:textColor="@color/hui_se"
+            android:textSize="20sp"
+            android:layout_margin="15dp"
+            />
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shoucang"
+            android:layout_marginTop="15dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shoucang"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shoucang"
+            android:layout_marginTop="15dp"
+             android:layout_marginLeft="10dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shoucang"
+            android:layout_marginTop="15dp"
+             android:layout_marginLeft="10dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shoucangtwo"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/bai_se"
+        android:layout_margin="10dp"
+        
+        
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ping_jia_xin_yu"
+            android:textColor="@color/hui_se"
+            android:textSize="20sp"
+            android:layout_margin="15dp"
+            />
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shoucang"
+            android:layout_marginTop="15dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shoucang"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shoucang"
+            android:layout_marginTop="15dp"
+             android:layout_marginLeft="10dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shoucang"
+            android:layout_marginTop="15dp"
+             android:layout_marginLeft="10dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shoucangtwo"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:background="@color/bai_se"
+        android:layout_margin="10dp"
+        
+        
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ping_jia"
+            android:textColor="@color/hui_se"
+            android:textSize="20sp"
+            android:layout_margin="15dp"
+            />
+        
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="70dp"
+           android:text="@string/ping_jia_one"
+           android:layout_marginTop="15dp"
+           android:textSize="18sp"
+           android:layout_marginRight="10dp"
+           />
+        
+    </LinearLayout>
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/jia_lv_you"
+        android:background="@color/xiang_qing_si_liao"
+        android:gravity="center"
+        android:text="@string/ping_jia_ti_jiao"
+        android:textColor="@color/bai_se"
+        android:textSize="20sp" />
 </LinearLayout>
