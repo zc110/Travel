@@ -29,7 +29,14 @@ public class LvyouFragment extends Fragment {
 	}	
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch(item.getItemId()){
-		
+			case R.id.item1:
+				break;
+			case R.id.item2:
+				break;
+			case R.id.item3:
+				break;
+			default:
+				break;
 		}
 		return super.onOptionsItemSelected(item);
 	}
