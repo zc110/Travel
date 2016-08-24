@@ -6,5 +6,18 @@
     <color name="huise">#eaeaea</color>
     <color name="baise">#ffffff</color>
     <color name="heise">#000000</color>
+    <color name="bai_se">#ffffff</color>
+    <color name="hui_se">#A1A1A1</color>
+    <color name="lv_you_guan_li">#ffffff</color>
+    <color name="lv_you_guan_li_bei_jing">#01b6bd</color>
+    <color name="lv_you_guan_li_activity_bei_jing">#EAEAEA</color>
+  <color name="ju_se">#ff4500</color>
+    <color name="lv_you_text">#70000000</color>
+    <color name="geng_duo_zi_liao">#ffffff</color>
+    <color name="lv_you_tet">#01b6bd</color>
+    <color name="xiang_qing_shcool">#838383</color>
+    <color name="xiang_qing_si_liao">#01b6bd</color>
+      <color name="xin_de_lv_you">#838383</color>
+      <color name="ge_ren_zi_liao">#838383</color>
 
 </resources>
