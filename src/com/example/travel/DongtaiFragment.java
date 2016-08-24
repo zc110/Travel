@@ -2,7 +2,9 @@ package com.example.travel;
 
 import java.util.ArrayList;
 import java.util.List;
-
+import classify.Trend;
+import adapter.MyDongtaiAdapter;
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -12,13 +14,15 @@ import android.widget.ListView;
 
 public class DongtaiFragment extends Fragment{
 	ListView listview;
+	@SuppressLint("InflateParams")
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
-			Bundle savedInstanceState) {
+			Bundle savedInstanceState){
 		View v=inflater.inflate(R.layout.fragment_dongtai,null);
 		listview=(ListView)v.findViewById(R.id.listview_dongtai);
 		getData();
 		return v;
 	}
+	@SuppressLint("InflateParams")
 	private void getData() {
 		LayoutInflater in=getLayoutInflater(getArguments());
 		View headview=in.inflate(R.layout.fragment_dongtai_head,null);

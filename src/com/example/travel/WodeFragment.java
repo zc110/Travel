@@ -1,5 +1,6 @@
 package com.example.travel;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -8,6 +9,7 @@ import android.view.ViewGroup;
 
 public class WodeFragment extends Fragment{
 
+	@SuppressLint("InflateParams")
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		View v=inflater.inflate(R.layout.fragment_wode,null);

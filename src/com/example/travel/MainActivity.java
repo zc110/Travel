@@ -1,6 +1,8 @@
 package com.example.travel;
 
 import java.util.ArrayList;
+
+import adapter.MyFragmentAdapter;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;

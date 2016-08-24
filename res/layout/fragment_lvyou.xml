@@ -14,7 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="16dp"
             android:text="我的驴友"
             android:textColor="@color/baise"
             android:textSize="20sp" />
@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:padding="15dp"
+            android:padding="16dp"
             android:src="@drawable/tianjia" />
     </RelativeLayout>
 
