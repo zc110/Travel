@@ -7,6 +7,7 @@
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="23" />
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -37,7 +38,7 @@
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         <activity
-            android:name="com.example.travel.MainActivity"
+            android:name="com.example.zhaoliusen.travel.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -46,10 +47,16 @@
             </intent-filter>
         </activity>
         
-        <activity android:name="com.example.travel.JingdianActivity"/>
-        <activity android:name="com.example.travel.HuwaiActivity"/>
-        <activity android:name="com.example.travel.SouActivity"/>
-        <activity android:name="com.example.travel.ZhouBianActivity"/>
+        <activity android:name="com.example.zhaoliusen.travel.JingdianActivity" />
+        <activity android:name="com.example.zhaoliusen.travel.HuwaiActivity" />
+        <activity android:name="com.example.zhaoliusen.travel.SouActivity" />
+        <activity android:name="com.example.zhaoliusen.travel.ZhouBianActivity" />
+        
+        <activity android:name="com.example.zc.travel.TiaoJiaHaoYouActivity"/>
+        <activity android:name="com.example.zc.travel.XinDeLvYouActivity"/>
+        <activity android:name="com.example.zc.travel.GeRenZiLiaoActivity"/>
+        <activity android:name="com.example.zc.travel.GeRenZiLiaoGengDuoActivity"/>
+        <activity android:name="com.example.zc.travel.LiaoTianActivity"/>
     </application>
 
 </manifest>

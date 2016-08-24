@@ -1,4 +1,4 @@
-package com.example.zhaoliusentravel;
+package com.example.zhaoliusen.travel;
 
 import java.util.ArrayList;
 import adapter.MyFragmentAdapter;

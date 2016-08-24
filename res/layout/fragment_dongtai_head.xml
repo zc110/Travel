@@ -22,14 +22,31 @@
             android:text="Dfdfdr"
             android:textColor="@color/baise"
             android:textSize="20sp" />
-	    <TextView
-            android:layout_width="wrap_content"
+	    <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
             android:layout_marginTop="110dp"
-            android:text="关注  41      赞  263"
-            android:textColor="@color/baise"
-            android:textSize="12sp" />
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_marginLeft="120dp"
+                android:text="@string/liao_tian_she_zhi_guan_zhu"
+                android:textColor="@color/bai_se" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/dianzan" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/liao_tian_she_zhi_dian_zan"
+                android:textColor="@color/bai_se" />
+        </LinearLayout>
 	</RelativeLayout>
 
 </LinearLayout>

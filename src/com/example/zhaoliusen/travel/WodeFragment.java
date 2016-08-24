@@ -1,4 +1,4 @@
-package com.example.zhaoliusentravel;
+package com.example.zhaoliusen.travel;
 
 import com.example.travel.R;
 

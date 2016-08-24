@@ -1,16 +1,33 @@
 package com.example.zc.travel;
 
-import com.example.travel.R;
-import com.example.travel.R.layout;
-
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.ImageView;
+import android.widget.TextView;
 
-public class GeRenZiLiaoGengDuoActivity extends Activity{
-@Override
-protected void onCreate(Bundle savedInstanceState) {
-	// TODO Auto-generated method stub
-	super.onCreate(savedInstanceState);
-	setContentView(R.layout.activity_geng_duo_zi_liao);
-}
+import com.example.travel.R;
+
+public class GeRenZiLiaoGengDuoActivity extends Activity {
+	ImageView image;
+	
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_geng_duo_zi_liao);
+		image=(ImageView)findViewById(R.id.gengduozhiliao);
+		image.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+				finish();
+			}
+		});
+		
+	}
+	OnClickListener clickListener=new OnClickListener(){
+		public void onClick(View v) {
+			switch(v.getId()){
+			}
+		}
+	};
 }
