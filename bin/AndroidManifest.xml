@@ -16,11 +16,7 @@
         android:theme="@style/AppTheme" >
 
         <activity
-<<<<<<< HEAD
             android:name="com.example.lvyou.Activity_wo_de_zu_ji"
-=======
-            android:name="com.example.zhaoliusen.travel.MainActivity"
->>>>>>> 99c9c48bc7910c4ff1d9b0bec360b1d98554c4f2
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,26 +24,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
         <activity android:name="com.example.lvyou.Activity_tongyongshezhi"/>
          <activity android:name="com.example.lvyou.Activity_tongzhi"/>
           <activity android:name="com.example.lvyou.Activity_yonghufankui"/>
            <activity android:name="com.example.lvyou.Activity_guan_yu_bei_bao_ke"/>
            <activity android:name="com.example.lvyou.Activity_fa_zu_ji"/>
            <activity android:name="com.example.lvyou.Activity_wode_zuji_xiangqing"/>
-=======
-        
-        <activity android:name="com.example.zhaoliusen.travel.JingdianActivity" />
-        <activity android:name="com.example.zhaoliusen.travel.HuwaiActivity" />
-        <activity android:name="com.example.zhaoliusen.travel.SouActivity" />
-        <activity android:name="com.example.zhaoliusen.travel.ZhouBianActivity" />
-        
-        <activity android:name="com.example.zc.travel.TiaoJiaHaoYouActivity"/>
-        <activity android:name="com.example.zc.travel.XinDeLvYouActivity"/>
-        <activity android:name="com.example.zc.travel.GeRenZiLiaoActivity"/>
-        <activity android:name="com.example.zc.travel.GeRenZiLiaoGengDuoActivity"/>
-        <activity android:name="com.example.zc.travel.LiaoTianActivity"/>
->>>>>>> 99c9c48bc7910c4ff1d9b0bec360b1d98554c4f2
     </application>
 
 </manifest>
